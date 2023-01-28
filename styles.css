@@ -85,3 +85,12 @@ main{
     text-decoration: line-through;
     margin: 0rem;
 }
+
+button:hover{
+    background-color:hsl(159, 45%, 16%);
+    cursor: pointer;
+}
+
+button:focus{
+    background-color:hsl(159, 45%, 16%);
+}
