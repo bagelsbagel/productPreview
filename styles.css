@@ -1,0 +1,87 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    overflow-wrap: break-word;
+    margin: 1rem 3rem;
+    font-size: 3.1rem;
+    line-height: 1;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    overflow-wrap: break-word;
+    margin: 1.5rem 3rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+img{
+    display: flex;
+    max-height: 40rem;
+    border-radius: 10px 0px 0px 10px;
+}
+
+button{
+    margin: 3rem;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    padding: 15px 100px;
+    align-items: center;
+}
+
+main{
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 55rem;
+    height: 40rem;
+}
+
+.caption{
+    font-variant: small-caps;
+    font-size: 1.4em;
+    letter-spacing: 6px;
+}
+
+.button-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.icon{
+    width: 22px;
+    height: auto;
+}
+
+.cost{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+    margin: 0.5rem 3rem 0rem 3rem;
+}
+
+.discount{
+    text-decoration: line-through;
+    margin: 0rem;
+}
